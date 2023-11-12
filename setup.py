@@ -4,7 +4,7 @@ with open('README.md') as f:
     readme = f.read()
 
 setup(name='pyOssila',
-      version='0.0.1',
+      version='1.0.2',
       url='https://github.com/wsarce/pyOssila',
       author='Walker Arce',
       author_email='wsarcera@gmail.com',

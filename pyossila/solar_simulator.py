@@ -188,5 +188,6 @@ class OssilaSolarSimulator:
         self.ossila_port.write(command.encode())
         response = self.ossila_port.readline().decode().strip()
         if command.split('?')[0] == response.split(':')[0]:
-            return ErrorList(response.split('>')[0].split(':')[1])
+            return ErrorList(int(response.split('>')[0].split(':')[1]))
         return -1
+
