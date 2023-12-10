@@ -1,7 +1,7 @@
 # pyOssila
 
 ### Parties Involved
-Group: UNL Aerospace Club - Advanced eXperimental Payloads<br>
+Group: UNL Aerospace Club - Aerospace eXperimental Payloads<br>
 Developer: Walker Arce<br>
 
 ### Motivation
